@@ -1,5 +1,6 @@
 .DS_Store
 config/database.yml
+config/database.mongo.yml
 db/*.sqlite3
 log/*.log
 tmp/**/*
