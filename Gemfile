@@ -6,8 +6,10 @@ gem "arel", :git => "git://github.com/rails/arel.git"
 
 gem "mysql"
 gem "mongoid"
+# gem "aasm", :git => "git://github.com/jsmestad/aasm.git"
 
 gem "warden"
+gem "bcrypt-ruby"
 
 only :test do
   gem "rspec", '>= 2.0.0.a2'
